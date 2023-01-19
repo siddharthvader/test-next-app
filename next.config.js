@@ -5,4 +5,5 @@ const nextConfig = {
 
 module.exports = {
   exportTrailingSlash: true,
+  images.unoptimized = true
 };

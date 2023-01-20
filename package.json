@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
     "export": "next export"  
-  },
+},
   "dependencies": {
     "@next/font": "13.1.2",
     "@types/node": "18.11.18",

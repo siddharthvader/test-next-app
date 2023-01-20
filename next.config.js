@@ -4,15 +4,13 @@ const nextConfig = {
 }
 
 module.exports = {
-  exportTrailingSlash: true,
+  trailingSlash: true,
   exportPathMap: function() {
     return {
       '/' : { page: '/' }
     };
   },
-  experimental: {
-    images: {
-      unoptimized: true,
-    },
+  images: {
+    unoptimized: true,
   },
 };
